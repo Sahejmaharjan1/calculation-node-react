@@ -1,0 +1,15 @@
+.header {
+  height: 70px;
+  background: #c10708 0% 0% no-repeat padding-box;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  font: normal normal normal 18px/16px Varela Round;
+  letter-spacing: 0.54px;
+  color: #ffffff;
+  text-transform: uppercase;
+}

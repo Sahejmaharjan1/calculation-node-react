@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  line-height: normal !important;
+}
+body ul {
+  list-style: none;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+}
+body a {
+  text-decoration: none;
+}
+body #root {
+  height: 100%;
+}
+body #root table tr td:nth-last-child(1),
+body #root table tr th:nth-last-child(1) {
+  width: 15%;
+}
+body #root .unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+body .text-center {
+  text-align: center;
+}
+body .text-left {
+  text-align: left;
+}
+body .text-right {
+  text-align: right;
+}
+body .text-justify {
+  text-align: justify;
+}
+body .cover-image {
+  object-fit: cover;
+}
+
+.contentWrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  width: 50%;
+  min-height: 50%;
+  border-radius: 10px;
+  padding: 20px 50px;
+  flex: none;
+  background-color: white;
+  box-shadow: 0 0 10px 5px #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hrLine {
+  border: 1px solid #c10708;
+  width: 80%;
+  margin: 50px 0px;
+}
+
+.calculationContainer {
+  margin-top: 130px;
+  width: 740px;
+  height: 406px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 2px 6px 10px #00000029;
+  border: 0.5px solid #a4a4a4;
+  border-radius: 4px;
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+  font: normal normal normal 16px/16px Varela Round;
+  letter-spacing: 0px;
+  color: #a4a4a4;
+  padding-bottom: 3px;
+}

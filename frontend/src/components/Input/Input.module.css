@@ -1,0 +1,20 @@
+.input {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #a4a4a4;
+  border-radius: 2px;
+  margin: 5px 0;
+  padding: 0px 10px;
+  max-width: 80%;
+}
+
+.input:active {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c10708;
+  border-radius: 2px;
+}
+
+.showOutline {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c10708;
+  border-radius: 2px;
+}

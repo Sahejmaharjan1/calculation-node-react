@@ -1,0 +1,12 @@
+.button {
+  background: #c10708 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  padding: 5px 10px;
+  color: white;
+  border: none;
+  font: normal normal normal 16px/18px Varela Round;
+  letter-spacing: 0.16px;
+  color: #ffffff;
+  margin-top: 5px;
+  max-width: 90%;
+}
